@@ -1,4 +1,5 @@
 .bio {
+    grid-area: bio;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -13,4 +14,6 @@
 
 .content {
     grid-area: content;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
 }

@@ -1,3 +1,4 @@
-/*.name-date {
-    grid-area: content;
-}*/
+.name-date {
+    display: flex;
+    justify-content: space-between;
+}
