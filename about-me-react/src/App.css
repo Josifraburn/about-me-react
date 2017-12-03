@@ -3,10 +3,10 @@
   grid-template-columns: auto auto auto;
   grid-template-rows: 1fr 4fr 5fr 4fr;
   grid-template-areas: 
-  'nav' 
-  'bio'
-  'tech'
-  'learning';
+  'nav-left-side nav nav-right-side' 
+  'bio-left-side bio bio-right-side'
+  'tech-left-side tech tech-right-side'
+  'learning-left-side learning learning-right-side';
 }
 
 
