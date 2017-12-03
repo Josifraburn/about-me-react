@@ -5,6 +5,12 @@
     'photo content'
 }
 
-.name-date {
+.photo {
+    grid-area: photo;
+    justify-self: center;
+    align-self: center;
+}
+
+.content {
     grid-area: content;
 }

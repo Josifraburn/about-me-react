@@ -7,8 +7,13 @@ class Bio extends Component {
     render () {
         return(
             <div className='bio'>
-                <NameDate className='name-date'/>
-                <ListContent/>
+                <div className='photo'>
+                    <img src='https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA2tAAAAJDkzYTJlOTQ5LWQzM2YtNDhjMS1iMzY0LTk5ODAwYjU0NDgyYg.jpg'/>
+                </div>
+                <div className='content'>
+                    <NameDate/>
+                    <ListContent/>
+                </div>    
             </div>
         )
     }
