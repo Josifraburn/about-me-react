@@ -1,0 +1,19 @@
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr 5fr 4fr;
+  grid-template-areas: 
+  'nav' 
+  'bio'
+  'tech'
+  'learning';
+  grid-gap: 10px;
+}
+
+.nav {
+  grid-area: nav; 
+}
+
+.bio {
+  grid-area: learning;
+}
