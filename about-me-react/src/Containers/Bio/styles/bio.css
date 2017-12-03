@@ -1,0 +1,10 @@
+.bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'photo content'
+}
+
+.name-date {
+    grid-area: content;
+}

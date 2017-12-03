@@ -10,10 +10,4 @@
   grid-gap: 10px;
 }
 
-.nav {
-  grid-area: nav; 
-}
 
-.bio {
-  grid-area: learning;
-}
