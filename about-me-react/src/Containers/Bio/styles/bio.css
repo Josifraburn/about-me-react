@@ -15,5 +15,14 @@
 .content {
     grid-area: content;
     display: grid;
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    'top'
+    'middle1'
+    'middle2'
+    'bottom' 
+}
+
+.bio-photo {
+    height: 300px;
 }

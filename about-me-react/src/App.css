@@ -7,6 +7,10 @@
   'bio-left-side bio bio-right-side'
   'tech-left-side tech tech-right-side'
   'learning-left-side learning learning-right-side';
+  grid-gap: 20px;
 }
+
+
+
 
 

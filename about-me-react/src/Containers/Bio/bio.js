@@ -8,7 +8,7 @@ class Bio extends Component {
         return(
             <div className='bio'>
                 <div className='photo'>
-                    <img src='https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA2tAAAAJDkzYTJlOTQ5LWQzM2YtNDhjMS1iMzY0LTk5ODAwYjU0NDgyYg.jpg'/>
+                    <img src='https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA2tAAAAJDkzYTJlOTQ5LWQzM2YtNDhjMS1iMzY0LTk5ODAwYjU0NDgyYg.jpg' className='bio-photo'/>
                 </div>
                 <div className='content'>
                     <NameDate/>

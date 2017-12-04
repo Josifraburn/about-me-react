@@ -1,4 +1,7 @@
 .name-date {
     display: flex;
     justify-content: space-between;
+    align-self: center;
+    font-size: 15px;
+    grid-area: middle1;
 }

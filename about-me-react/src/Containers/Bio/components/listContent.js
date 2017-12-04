@@ -5,8 +5,8 @@ class ListContent extends Component {
     render () {
         return (
             <div className='list-content'>
-                <h2>Why I chose helio</h2>
-                <ul>
+                <h2 className='content-title'>Why I chose helio,</h2>
+                <ul className='content-list'>
                     <li>item</li>
                     <li>item</li>
                     <li>item</li>

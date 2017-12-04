@@ -1,3 +1,13 @@
-/*.list-content {
-    grid-area: content;
-}*/
+.list-content {
+    grid-area: middle2;
+    background-color: #545353;
+}
+
+.content-title {
+    margin-left: 15px;
+    color: #ffc01f;
+}
+
+.content-list {
+    color: #ffc01f;
+}
