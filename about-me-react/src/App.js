@@ -9,7 +9,9 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
-        <Nav/>
+        <div className='nav'>
+          <Nav/>
+        </div>
         <Bio/>
         <Tech/>
         <Learning/>

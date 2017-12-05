@@ -10,7 +10,11 @@
   grid-gap: 20px;
 }
 
-
+.nav {
+    grid-area: nav;
+    justify-self: center;
+    margin: 10px;
+}
 
 
 
